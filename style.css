@@ -1,0 +1,158 @@
+* { 
+    margin: 0; 
+} 
+
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    background-image: url("assets/pool.jpg")
+}
+
+.container{
+    width: 950px;
+    max-width: 1300px;
+    margin-top: 5;
+    margin-bottom: 5;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(237, 198, 22);
+}
+.content{
+    line-height: 1.4em;
+    padding: 10;
+
+}
+
+nav,header,footer{
+    background-color: rgb(132, 208, 10);
+    colour: darkred;
+    
+}
+
+nav ul {
+    display: flex;
+    margin: 10;
+    padding: 5px;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+a{
+    color: rgb(138,255, 157);
+    text-decoration: none;
+}
+
+h1{
+    margin-block: 10px;
+    text-transform: uppercase;
+    color: rgb(0,247, 255);
+}
+
+h2{
+    margin-block: 10px;
+    text-transform: uppercase;
+    color: rgb(0,247, 255); 
+}
+
+h3{
+    margin-block: 10px;
+    text-transform: uppercase;
+    color: rgb(0,247, 255);
+}
+
+.img-centre{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+
+}
+
+audio, video{
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+table{
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+td,th{
+    border: 2px solid red;
+    padding: 2px 2px 5px 5px ;
+    background-color: burlywood;
+}
+
+table th, tfoot td{
+    text-transform: uppercase;
+    background-color: darkgray;
+    color: black;
+
+}
+
+dt{
+    font-style: bold;
+
+}
+
+footer{
+    font-size: 80%;
+    text-align: center;
+    padding: 1px;
+}
+
+iframe{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+
+}
+
+fieldset{
+    width: 500px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin: auto;
+    border: 2px solid red;
+    background-color: aliceblue;
+}
+
+legend{
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 8px ;
+    background-color: blue;
+    color: aqua;
+}
+
+input[type=submit]{
+    border: 2px solid red;
+    padding: 5px;
+    background-color: aquamarine;
+    color: antiquewhite;
+
+}
+
+input[type=submit]:hover{
+    background-color:brown;
+    color: blue;
+    cursor: pointer;
+}
